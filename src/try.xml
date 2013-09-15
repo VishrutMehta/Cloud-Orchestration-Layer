@@ -1,0 +1,6 @@
+<disk type='network' device='disk'>
+    <source protocol='rbd' name='try-pool/vish2'>
+        <host name='vishrut-Vostro-1015' port='6789'/>
+    </source>
+    <target dev='sdh3' bus='scsi'/>
+</disk>
